@@ -23,8 +23,6 @@ async def huhh(client: Client, message: Message):
    
    么  [𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ⋆♡](https://t.me/Libya13n) 𝐶𝐻𝐴𝑁𝑁𝐸𝐿
 
-   么  [ᯓ𓆩𓏺᭙ɦᎥ᥉ƙᥱᥡ⋆♡](https://t.me/bP_bP) 𝐷𝐸𝑉𝐸L𝑂𝑃𝐸𝑅¹
-
    么  [𝑻ٌْ!ًِ𝑶𝑴ّْ𝑴ً𝒀#¹🇱🇾⋆♡](https://t.me/CVVVS1) 𝐷𝐸𝑉𝐸L𝑂𝑃𝐸𝑅²    
 
    么  [َِ𓏺ꪔᥡ ᘜᖇ᥆ᥙρ⋆♡](https://t.me/Libya13n) 𝐺𝑅𝑂𝑈𝑃 𝐻𝐸L𝑃 
@@ -42,9 +40,6 @@ async def huhh(client: Client, message: Message):
                         "𝑻ٌْ!ًِ𝑶𝑴ّْ𝑴ً𝒀#¹🇱🇾", url=f"https://t.me/CVVVS1"), 
                 ],[
                     InlineKeyboardButton(
-                        "ᯓ𓆩𓏺᭙ɦᎥ᥉ƙᥱᥡ ˹ ♡", url=f"https://t.me/bP_bP"), 
-                ],[
-                    InlineKeyboardButton(
                         "⩹━⊷⌯ 𓏺𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ♡", url=f"https://t.me/Libya13n"),
                 ],
 
@@ -56,32 +51,32 @@ async def huhh(client: Client, message: Message):
 
 
 
-@app.on_message(command(["غنيلي", "غني", "غ", "حياه غنيلي"]))
-async def ihd(client: Client, message: Message):
-    rl = random.randint(3,267)
-    url = f"https://t.me/bsmaatt/{rl}"
-    await client.send_voice(message.chat.id,url,caption="🔥 ¦ تـم اختيـار الاغـنـية لـك",parse_mode="html",
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/{message.from_user.username}")
-                ],
-            ]
-        )
-    )
+# @app.on_message(command(["غنيلي", "غني", "غ", "حياه غنيلي"]))
+# async def ihd(client: Client, message: Message):
+#     rl = random.randint(3,267)
+#     url = f"https://t.me/bsmaatt/{rl}"
+#     await client.send_voice(message.chat.id,url,caption="🔥 ¦ تـم اختيـار الاغـنـية لـك",parse_mode="html",
+#     reply_markup=InlineKeyboardMarkup(
+#             [
+#                 [
+#                     InlineKeyboardButton(
+#                         message.from_user.first_name, url=f"https://t.me/{message.from_user.username}")
+#                 ],
+#             ]
+#         )
+#     )
     
-@app.on_message(command(["صورة","صور"]))
-async def ihd(client: Client, message: Message):
-    rs = random.randint(39,148)
-    url = f"https://t.me/GTTUTY/{rs}"
-    await client.send_photo(message.chat.id,url,caption="💕 ¦ تـم اختيـار الصوره لـك",parse_mode="html",
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/{message.from_user.username}")
-                ],
-            ]
-        )
-    )
+# @app.on_message(command(["صورة","صور"]))
+# async def ihd(client: Client, message: Message):
+#     rs = random.randint(39,148)
+#     url = f"https://t.me/GTTUTY/{rs}"
+#     await client.send_photo(message.chat.id,url,caption="💕 ¦ تـم اختيـار الصوره لـك",parse_mode="html",
+#     reply_markup=InlineKeyboardMarkup(
+#             [
+#                 [
+#                     InlineKeyboardButton(
+#                         message.from_user.first_name, url=f"https://t.me/{message.from_user.username}")
+#                 ],
+#             ]
+#         )
+#     )
