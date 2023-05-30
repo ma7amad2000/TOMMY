@@ -19,7 +19,7 @@ async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://k.top4top.io/p_2706s63yo1.jpg",
         caption=f"""
-  ╭═★⊷⌯[⧼⌞𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ⧽](https://t.me/Libya13n)⌯⊶★═╮
+  ╭═★[⧼⌞𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ⧽](https://t.me/Libya13n)★═╮
    
    么  [𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ⋆♡](https://t.me/Libya13n) 𝐶𝐻𝐴𝑁𝑁𝐸𝐿
 
@@ -31,7 +31,7 @@ async def huhh(client: Client, message: Message):
 
    么  [𓏺ꪔᥡ ხ᥆ƚ⋆♡](t.me/XXVXV6BOT) 𝑀𝑈𝑆𝐼𝐶 𝐵𝑂𝑇
 
-  ╰───么[𓏺َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ](https://t.me/Libya13n)  • ◈ •[𓏺َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ](https://t.me/Libya13n)  么───╯ 
+  ╰─么[𓏺َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ](https://t.me/Libya13n)  • ◈ •[𓏺َِᥒَِ᥆َِᖇَِꫝُِꪖَِᥒ](https://t.me/Libya13n)  么─╯ 
   
  ⍟𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼
 """,
